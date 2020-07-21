@@ -67,3 +67,10 @@ function getGender () {
   //generating an index value to select items within the arrays
   let index;
   
+  // fix formula bug
+  if (dayOfWeekNumber == 0){
+    index = 6;
+  } else {
+    index = dayOfWeekNumber - 1;
+  }
+  
