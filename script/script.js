@@ -12,4 +12,7 @@ function getAkhanName () {
             }
         }
     }
+
+    let myGenderValue = getGender();
+    console.log(myGenderValue);
 }
