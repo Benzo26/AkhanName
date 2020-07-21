@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akhan Name Generator</title>
+    <link rel="icon" href="images/calc.png" type="img/jpg">
+    <link rel="stylesheet" href="css/style.css" media="all">
 </head>
 <body>
     <div class="content">
@@ -37,10 +39,15 @@
                     <input id="get-name" type="submit" name="" value="Assign name">
                 <br><br>
             </form>
+            <form onsubmit="return clearInput()">
+                <input class="clear" type="submit" value="Clear input">
+            </form>
 
-
+            <h4 id = display-name><strong>Below is your Akhan Name:</strong></h4>
+            <p id="result"></p>
         </div>
     </div>
+    <script src="script/script.js"></script>
     
 </body>
 </html>
